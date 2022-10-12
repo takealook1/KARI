@@ -1,0 +1,24 @@
+@media (max-width: 1400px) {
+  .nav_menu {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 10px;
+  }
+  /* main */
+  .section_wrap {
+    flex-direction: column;
+  }
+  /* footer */
+  footer {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 13px;
+    text-align: center;
+  }
+  .footer_menu ul {
+    justify-content: space-around;
+  }
+}
