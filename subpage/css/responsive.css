@@ -7,6 +7,15 @@
   body {
     font-size: 10px;
   }
+  .nav_login i:nth-child(1) {
+    margin-right: 0;
+  }
+  .nav_login i:nth-child(2) {
+    display: none;
+  }
+  .nav_login i:nth-child(3) {
+    display: none;
+  }
   /* main */
   .section_wrap {
     flex-direction: column;
